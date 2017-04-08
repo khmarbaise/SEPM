@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package elephant.core.contract;
+package elephant.core.contract.dao;
 
 /**
  *
  * @author mfe
  */
-public class IAnswerDao {
+public interface IBaseDao {
     
 }

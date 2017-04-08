@@ -11,4 +11,16 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <name>elephant.core.dao</name>
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>elephant.core.contract</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>elephant.core.domainModel</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>

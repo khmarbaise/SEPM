@@ -23,9 +23,8 @@
         <module>elephant.core.domainModel</module>
         <module>elephant.core.contract</module>
         <module>elephant.core.dao</module>
+        <module>elephant.core.service</module>
         <module>elephant.web</module>
-        <module>elephant.web.api</module>
-
     </modules>
     <name>code.elephant</name>
 </project>

@@ -10,5 +10,28 @@ package elephant.core.domainmodel;
  * @author mfe
  */
 public class Answer {
+
+    public Answer() {
+    }
     
+    private String Text;
+
+    /**
+     * Get the value of Text
+     *
+     * @return the value of Text
+     */
+    public String getText() {
+        return Text;
+    }
+
+    /**
+     * Set the value of Text
+     *
+     * @param Text new value of Text
+     */
+    public void setText(String Text) {
+        this.Text = Text;
+    }
+
 }
