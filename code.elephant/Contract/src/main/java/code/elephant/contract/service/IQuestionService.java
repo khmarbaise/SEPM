@@ -5,8 +5,9 @@
  */
 package code.elephant.contract.service;
 
-import elephant.core.domainmodel.Question;
 import java.util.List;
+
+import code.elephant.domainmodel.Question;
 
 /**
  *
